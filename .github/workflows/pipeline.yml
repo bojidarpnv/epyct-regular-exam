@@ -22,7 +22,7 @@ jobs:
     - name: Install npm dependencies
       run: npm install
     - name: Run the app
-      run: npm run start
+      run: npm run start &
     - name: Run the unit tests
       run: npm run test:unit
     - name: Display softuni username
